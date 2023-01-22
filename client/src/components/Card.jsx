@@ -5,7 +5,7 @@ import { downloadImage } from '../utils'
 
 const Card = ({ _id, name, prompt, photo }) => {
   return (
-    <div className='rounded-xl group relative shadow-card hover:shadow-cardhover card'>
+    <div className='rounded-xl group relative shadow-card hover:shadow-cardhover card hover:scale-110 transition duration-500 ease-in-out'>
       <img 
         className='w-full h-auto object-cover rounded-xl'
         src={photo}
@@ -37,7 +37,6 @@ const Card = ({ _id, name, prompt, photo }) => {
           </div>
         </p>
       </div>
-
     </div>
   )
 }

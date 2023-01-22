@@ -112,7 +112,7 @@ const CreatePost = () => {
             handleSurpriseMe={handleSurpriseMe}
           />
         {/* AI Image */}
-          <div className='relative bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center'>
+          <div className='relative bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-xl p-3 h-xl flex justify-center items-center'>
             {form.photo ? (
               <img 
                 src={form.photo}
@@ -139,7 +139,7 @@ const CreatePost = () => {
           <button
             type='button'
             onClick={generateImage}
-            className='text-white bg-green-700 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'
+            className='text-white bg-green-700 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center hover:scale-125 transition duration-500 ease-in-out'
           >
             {generatingImg ? 'Generating...' : 'Generate'}
           </button>
@@ -151,7 +151,7 @@ const CreatePost = () => {
           </p>
           <button
             type='submit'
-            className='mt-3 text-white bg-[#6469ff] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center'
+            className='mt-3 text-white bg-[#6469ff] font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center hover:scale-125 transition duration-500 ease-in-out'
           >
             {loading ? 'Sharing...' : 'Share to Community!'}
           </button>
