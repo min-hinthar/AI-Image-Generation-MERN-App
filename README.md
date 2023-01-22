@@ -1,8 +1,11 @@
 # Project Title: [ AI-Image-Generation-MERN-App ]
 
-Deployed on  Live URL: 
+Deployed on  Live URL
 
-![App Screenshots](./public/Sanity_1.jpg)
+![App Screenshots](./client/src/assets/minJourney_1.jpeg)
+![App Screenshots](./client/src/assets/minJourney_2.jpg)
+![App Screenshots](./client/src/assets/minJourney_3.jpeg)
+![App Screenshots](./client/src/assets/minJourney_4.jpeg)
 
 
 ## Table of Contents
@@ -23,23 +26,30 @@ This project is a MERN stack web application that utilizes OpenAI's Dall-E model
 -----
 
 ### Installation
-MongoDB
+Cloudinary
+CORS
+OpenAI
+MongoDB/Mongoose
 Express.js
-React
 Node.js
 
 
-#### Tech-Stacks
+### Tech-Stacks
 OpenAI - Dall-E Model,
 Cloudinary,
-Tailwind CSS,
+MongoDB
 React,
+Tailwind CSS,
 HTML5,
+Vite
 
 -----
 
 ### Usage 
 
+Open Source
+
+-----
 #### User Story
 
 As a user, I want to be able to generate AI images on a web app so that I can create unique images for my projects.
