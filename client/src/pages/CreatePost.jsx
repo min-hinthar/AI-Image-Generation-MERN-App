@@ -31,8 +31,7 @@ const CreatePost = () => {
 
         const data = await response.json();
 
-        setForm({ ...form, photo: `data:image/jpeg;base64,
-        ${data.photo}`})
+        setForm({ ...form, photo: `data:image/jpeg;base64,${data.photo}`})
       } catch (error) {
         alert(error);
       } finally {
@@ -113,7 +112,7 @@ const CreatePost = () => {
             handleSurpriseMe={handleSurpriseMe}
           />
         {/* AI Image */}
-          <div className='relative bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-100 p-3 h-100 flex justify-center items-center'>
+          <div className='relative bg-gray-50 border border-red-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 w-64 p-3 h-64 flex justify-center items-center'>
             {form.photo ? (
               <img 
                 src={form.photo}
