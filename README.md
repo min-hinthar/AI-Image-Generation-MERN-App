@@ -1,6 +1,6 @@
 # Project Title: [ AI-Image-Generation-MERN-App ]
 
-Deployed on  Live URL
+Deployed on Vercel Live URL: [https://min-journey-ai-image-dall-e.vercel.app/]
 
 ![App Screenshots](./client/src/assets/minJourney_1.jpeg)
 ![App Screenshots](./client/src/assets/minJourney_2.jpg)
@@ -83,6 +83,8 @@ Jest
 MIT 
 
 -----
+
+Deployed on Vercel Live URL: [https://min-journey-ai-image-dall-e.vercel.app/]
 
 ### Questions 
 
